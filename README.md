@@ -1,2 +1,2 @@
 # DMOJ-Problems
-Solutions for selected problems from DMOJ.ca
+Solutions I used for selected problems from DMOJ.ca
