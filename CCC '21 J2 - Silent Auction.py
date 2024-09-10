@@ -1,7 +1,10 @@
-num_of_num = int(input())
-num_list = []
-for _ in range(num_of_num):
-    num_list.append(int(input()))
-num_list.sort()
-for n in num_list:
-    print(n)
+num_of_bids = int(input())
+bidder = ""
+max = 0
+for _ in range(num_of_bids):
+    bidder = input()
+    bid = int(input())
+    if bid > max:
+        max = bid
+        winner = bidder
+print(winner)
