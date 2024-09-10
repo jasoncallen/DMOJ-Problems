@@ -1,13 +1,10 @@
-num_of_bids = int(input())
-bidders = {}
-for _ in range(num_of_bids):
-    bidder = input()
-    bid = int(input())
-    bidders[bidder] = bid
-bid = -1
-winner = ""
-for k,v in bidders.items():
-    if v > bid:
-        bid = v
-        winner = k
-print(winner)
+for _ in range(int(input())):
+    text = ""
+    string_input =input()
+    len_string = len(string_input)
+    space_num = string_input.count(" ")+1
+    num = string_input[:len_string-space_num]
+    char = string_input[-1]
+    for _ in range(int(num)):
+            text= text+str(char)
+    print(text)
