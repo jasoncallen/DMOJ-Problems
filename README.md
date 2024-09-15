@@ -1,2 +1,2 @@
-# DMOJ-Problems
-Solutions I used for selected problems from DMOJ.ca
+# Online-Judge-Problems
+Solutions I used for selected problems at Judge sites.
